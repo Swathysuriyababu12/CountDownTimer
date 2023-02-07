@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Form Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="signup" onsubmit="callpage()" action="index.html">
+        <h1>Create Event</h1>
+        <div class="field">
+          <label for="name">Enter an event title</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter the event"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <label for="email">Select the date-time</label>
+          <input
+            type="datetime-local"
+            id="date"
+            name="date"
+            placeholder="select the date-time"
+          />
+          <small></small>
+        </div>
+        <div class="field">
+          <button type="submit" class="full">ADD NEW COUNT DOWN</button>
+        </div>
+      </form>
+    </div>
+    <div class="event-container">
+      <!-- <div class="event">
+        <h2 class="event_title">Title</h2>
+        <div class="event_countdown">
+          <div class="event_item">
+            <p class="event_title_title" id="day_title">15</p>
+            <p class="day_name">DAYS</p>
+          </div>
+          <div class="event_item">
+            <p class="event_title_title" id="hour_title">15</p>
+            <p class="hour_name">HOURS</p>
+          </div>
+          <div class="event_item">
+            <p class="event_title_title" id="minute_title">15</p>
+            <p class="minute_name">MINUTES</p>
+          </div>
+          <div class="event_item">
+            <p class="event_title_title" id="seconds_title">15</p>
+            <p class="seconds_name">SECONDS</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="count.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
