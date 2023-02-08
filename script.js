@@ -1,16 +1,5 @@
-// const getNewYear = () => {
-//   const currentYear = new Date().getFullYear();
-//   return new Date(`January 01 ${currentYear + 1} 00:00:00`);
-// };
-
-// // update the year element
-// const year = document.querySelector(".year");
-// year.innerHTML = getNewYear().getFullYear();
-
-// // select elements
 const app = document.querySelector(".event-container");
-// // const message = document.querySelector(".message");
-// // const heading = document.querySelector("h1");
+
 const form = document.querySelector("#signup");
 var eventName = "";
 var time = 0;
@@ -62,16 +51,8 @@ const showMessage = () => {
   message.innerHTML = `Happy ${eventName}`;
 };
 
-// const hideMessage = () => {
-//   message.innerHTML = "";
-//   heading.style.display = "block";
-// };
-
 const complete = () => {
   showMessage();
-
-  // restart the countdown after showing the
-  // greeting message for a day ()
 };
 
 function callpage() {
