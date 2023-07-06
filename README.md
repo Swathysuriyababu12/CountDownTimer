@@ -6,7 +6,7 @@ A countdown timer implemented using vanilla JavaScript is a JavaScript code snip
 In a vanilla JavaScript countdown timer, the following key components and functionalities are typically included:
 
 # HTML Structure: 
-The countdown timer requires an HTML element where the timer will be displayed. This element can be a <div>, a <span>, or any other suitable container.
+The countdown timer requires an HTML element where the timer will be displayed. This element can be a div,span or any other suitable container.
 
 # JavaScript Logic: 
 The JavaScript code calculates the remaining time based on the current date and time and the target deadline. It updates the timer display at regular intervals, typically every second, to reflect the updated countdown.
